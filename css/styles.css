@@ -1,0 +1,281 @@
+ /* Base style */
+ body {
+     font-family: Roboto, sans-serif;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 1.5;
+     letter-spacing: 0.32px;
+     color: var(--slate);
+     background-color: #FFF;
+ }
+
+ :root {
+
+     --primary-font: "Roboto", sans-serif;
+     --title-font: "Raleway", sans-serif;
+     /* colors */
+     --iris: #4D5AE5;
+     --ocean: #404BBF;
+     --navyblue: #2E2F42;
+     --green: #31D0AA;
+     --slate: #434455;
+     --lightslate: #8E8F99;
+     --cornflower: #E7E9FC;
+     --cloud: #F4F4FD;
+     --navybluemodal: #2E2F42;
+     --grey: #2E2F42;
+     --white: #FFFFFF;
+     --dairy: #FCFCFC;
+
+
+
+
+ }
+
+ .section {}
+
+ .link {
+     text-decoration: none;
+
+ }
+
+ .list {
+     list-style: none;
+ }
+
+ /* header style */
+ .heder {}
+
+ /* LOGO */
+ .logo {
+     color: var(--iris);
+     font-family: Raleway, sans-serif;
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 800;
+     line-height: 1.17;
+     letter-spacing: 0.03em;
+     text-transform: uppercase;
+
+ }
+
+ .span-dark {
+     color: var(--navyblue);
+ }
+
+ .span-white {
+     color: var(--cloud);
+ }
+
+ .nav {
+     list-style: none;
+ }
+
+ .navigation-item-link {
+     color: var(--navyblue);
+     font-style: normal;
+     font-weight: 500;
+     letter-spacing: 0.02em;
+     font-size: 16px;
+     line-height: 1.5;
+
+ }
+
+ .navigation-item-link:hover,
+ .navigation-item-link:focus {
+    color: #404bbf;
+
+ }
+
+
+
+
+ .addres-contacts {
+     color: var(--slate);
+     font-style: normal;
+     font-weight: 400;
+     line-height: 1.5;
+     letter-spacing: 0.32px;
+
+
+ }
+
+ .address {
+     font-style: normal;
+ }
+
+ .addres-contacts:hover,
+ .addres-contacts:focus {
+     color: #404bbf;
+ }
+
+
+
+ /* main */
+ .main {}
+
+ /* Hero section */
+ .hero {
+     background: var(--navyblue);
+
+ }
+
+ .hero-text {
+     color: var(--white);
+     font-size: 56px;
+     font-weight: 700;
+     line-height: 1.07;
+     letter-spacing: 1.12px;
+     text-align: center;
+ }
+
+ .button {
+     color: var(--white);
+     font-style: normal;
+     font-weight: 500;
+     letter-spacing: 0.64px;
+     background: var(--iris);
+     font-family: "Roboto", sans-serif;
+     font-size: 16px;
+     line-height: 1.5;
+     letter-spacing: 0.04em;
+     cursor: pointer
+ }
+
+ .button:hover,
+ .button:focus {
+     background-color: #404BBF;
+ }
+
+ .button-filtre {
+     color: var(--iris);
+     font-style: normal;
+     cursor: pointer;
+     background-color: #F4F4FD;
+     cursor: pointer;
+     font-family: "Roboto", sans-serif;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: 1.5;
+     letter-spacing: 0.04em;
+ }
+
+ .button-filtre:hover,
+ .button-filtre:focus {
+     color: #FFFFFF;
+     background-color: #404BBF;
+ }
+
+ .button-filtre-withe {
+     color: var(--white);
+
+ }
+
+ /* Benefits section */
+ .benefits-section {}
+
+ .benefits-title {}
+
+ .benefits-list {}
+
+ .benefits-list-item {}
+
+ .benefits-list-subtitle {
+     color: var(--navyblue);
+     font-size: 20px;
+     font-weight: 500;
+     line-height: 1.2;
+     letter-spacing: 0.4px;
+
+ }
+
+ .benefits-list-desc {}
+
+ /* Progres section */
+ .progres-section {}
+
+ .progres-title {
+     color: var(--navyblue);
+     font-size: 36px;
+     font-weight: 700;
+     line-height: 1.11;
+     letter-spacing: 0.72px;
+     text-transform: capitalize;
+     text-align: center;
+ }
+
+ .progres-list {}
+
+ .progres-list-item {}
+
+ .images {}
+
+ /* Team section */
+ .team-section {
+     background-color: #F4F4FD;
+ }
+
+ .team-title {
+     color: var(--navyblue);
+     font-size: 36px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 1.11;
+     letter-spacing: 0.72px;
+     text-transform: capitalize;
+     text-align: center;
+
+ }
+
+ .team-list {}
+
+ .team-list-item {
+     background-color: #FFFFFF;
+ }
+
+ .team-img {}
+
+ .name {
+     color: var(--navyblue);
+     font-size: 20px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: 1.2;
+     letter-spacing: 0.4px;
+ }
+
+ .profession {}
+
+ /* card */
+ .card-item-title {
+     color: #2e2f42;
+     font-size: 20px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: 1.2;
+     letter-spacing: 0.02em;
+ }
+
+ .card-list-desc {
+     font-size: 16px;
+     line-height: 1.5;
+     letter-spacing: 0.02em;
+     color: #434455;
+
+ }
+
+
+ /* footer */
+ .footer {
+     background: var(--navyblue);
+
+ }
+
+ .link-logo {}
+
+ .footer-text {
+     color: var(--cloud);
+
+ }
